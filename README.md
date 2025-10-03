@@ -18,5 +18,11 @@ Tech used:
 ## Notes
 - Would like to commit better styling to website
 
+## Future updates
+- Adding a stock description, allow searches through stock name, and adding ticker graph widget
+
 #### API Used
-https://aletheiaapi.com/
+- Stock data API - https://aletheiaapi.com/
+- Stock logo API - https://docs.logokit.com/api-reference/stock-logo-API 
+
+
