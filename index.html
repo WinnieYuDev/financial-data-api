@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="urf-8">
+		<meta name="Stocks" content="Use of Stock API to grab basic stock data">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Stock Data API</title>
+		<!-- external CSS link -->
+		 <link rel="stylesheet" href="css/normalize.css">
+		 <link rel="stylesheet" href="css/style.css">
+	</head>
+
+<body>
+<main class="container">
+	<header>
+		<h2>Welcome!</h2>
+		<p>Do you want to stay on top of the stock market? 
+			This website is designed to help you to get basic financial data and quotes on specific stocks.</p>
+	</header>
+	<section>
+		<h1>Stock Market Quotes</h1>
+
+		<div class="search-bar">
+		<input type="text" id="api-search" placeholder="Enter stock symbol e.g PG" />
+		<button id="search-button">Search</button>
+		</div>
+
+		<div class="detailsContainer">
+			<img id="stock-logo" alt="Stock Logo" src="img/stock-icon.png"/>
+			<div class="details">
+			<p id="current-price">Price</p>
+			<p id="percent-change">Percent Change</p>
+			<p id="high-price">High</p>
+			<p id="low-price">Low</p>
+			<p id="open-price">Open</p>
+			<p id="previous-close">Close</p>
+			</div>
+		</div>
+	</section>
+</main>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
+<!-- Citation:
+ -->
